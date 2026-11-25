@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - TechZone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="pagina-cadastro">
+    <header class="pagina-cadastro">
+       
+    </header>
+
+    <main>
+         <h1 class="logo-cadastro">
+            TechZone
+        </h1>
+        <section class="card-cadastro">
+            <div class="icone-cadastro">
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <h2>Crie sua conta</h2>
+            <form action="" method="post">
+                <div class="campo">
+                    <label for="campo-nome">
+                        Nome Completo
+                    </label>
+                    <input type="text"
+                        name="nome"
+                        id="campo-nome"
+                        placeholder="Digite seu nome completo"
+                        required>
+                </div>
+                
+                <div class="campo">
+                    <label for="campo-email">
+                        E-mail
+                    </label>
+
+                    <input type="email"
+                        name="email"
+                        id="campo-email"
+                        placeholder="Digite seu e-mail"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="campo-senha">
+                        Senha                   
+                     </label>
+
+                     <input type="password"
+                        name="senha"
+                        id="campo-senha"
+                        placeholder="Crie uma senha"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="campo-nascimento">
+                        Data de nascimento
+                    </label>
+
+                    <input type="date"
+                        name="nascimento"
+                        id="campo-nascimento"          
+                    required>
+                </div>
+
+                <div class="campo">
+                    <label for="campo-preferencia">
+                        Preferência de produtos
+                    </label>
+
+                    <select name="preferencia" 
+                        id="campo-preferencia"
+                        required>
+                    
+                        <option value="" disable selected>
+                            Selecione uma categoria
+                        </option>
+
+                        <option value="teclados">Teclados</option>
+                        <option value="mouses">Mouses</option>
+                        <option value="headsets">Headsets</option>
+                        <option value="monitores">Monitores</option>
+                        <option value="microfones">Micorfones</option>
+                        <option value="outros">Outros</option>
+                    </select>
+
+                </div>
+                <button type="submit" class="botao-cadastro">
+                    Criar minha conta
+                </button>
+            </form>
+            <p class="tetxo-voltar">
+                <a class="voltar" href="index.html">Voltar á pagina inicial  </a>
+            </p>
+        </section>
+    </main>
+
+    

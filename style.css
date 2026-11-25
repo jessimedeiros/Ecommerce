@@ -1,0 +1,296 @@
+body {
+    background-color: #0B0B12;
+    color: white;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+.cabecalho {
+    background-color: #101018;
+    padding: 20px 6%;
+    border-bottom: 1px solid #393044;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 32px;
+    margin: 0;
+}
+
+/* PESQUISA */
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa input {
+    width: 350px;
+    padding: 12px;
+    background-color: #171522;
+    color: white;
+    border: 1px solid #393044;
+    border-radius: 8px;
+}
+
+.pesquisa button {
+    background-color: #842BEB;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+
+/* LOGIN */
+
+.login a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.login i {
+    color: #C34BFF;
+    margin-left: 5px;
+}
+
+/* MENU */
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 35px;
+}
+
+nav a {
+    color: #AAA6B5;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* TITULO DOS PRODUTOS */
+
+main {
+    padding: 40px 6%;
+}
+
+main h2 {
+    font-family: 'Lilita One', sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* LISTA DE PRODUTOS */
+
+.lista-produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* CARD DOS PRODUTOS */
+
+.produto {
+    background-color: #171522;
+    border: 1px solid #393044;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 12px #211333;
+}
+
+/* IMAGENS */
+
+.produto img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+/* NOME DOS PRODUTOS */
+
+.produto h2 {
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* DESCRICAO */
+
+.descricao {
+    color: #AAA6B5;
+    font-size: 13px;
+}
+
+/* PRECO */
+
+.preco {
+    color: #C34BFF;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+
+/* BOTAO COMPRAR */
+
+.comprar {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* RODAPE */
+
+footer {
+    background-color: #101018;
+    color: #777282;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    border-top: 1px solid #393044;
+}
+
+
+
+
+
+
+
+
+
+
+
+.pagina-cadastro {
+    background-color: #0B0B12;
+    color: white;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.pagina-cadastro main{
+    width: 100%;
+}
+
+.header-cadastro {
+    background-color: #101018;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-cadastro {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0 20px;
+}
+
+.logo-cadastro span {
+    color: #C34BFF;
+}
+
+.voltar {
+    color: #C34BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.card-cadastro {
+    background-color: #171522;
+    width: 380px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #393044;
+    border-radius: 18px;
+    box-shadow: 0px 0px 20px #211333;
+}
+
+.icone-cadastro {
+    background-color: #29163D;
+    color: #C34BFF;
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+    margin: 0 auto 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+
+.card-cadastro h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.subtitulo-cadastro {
+    color: #AAA6B5;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.campo {
+    margin-bottom: 18px;
+}
+
+.campo label {
+    display: block;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.campo input, .campo select {
+    width: 100%;
+    background-color: #0B0B12;
+    color: white;
+    border: 1px solid #393044;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.botao-cadastro {
+    width: 100%;
+    background-color: #842BEB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.texto-voltar {
+    color: #AAA6B5;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 22px;
+    width: 100%;
+}
+
+.texto-voltar a {
+    color: #C34BFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer-cadastro {
+    color: #777282;
+    text-align: center;
+    font-size: 11px;
+    padding: 20px;
+}
